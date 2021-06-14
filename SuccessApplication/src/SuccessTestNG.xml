@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Success Application Suite">
+
+	<test name="Create Task test case">
+		<classes>
+			<class name="testcase_success.Test_Task_create"></class>
+		</classes>
+	</test>
+
+
+</suite>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Success Application Suite]">
+  <test thread-count="5" name="Create Task test case(failed)">
+    <classes>
+      <class name="testcase_success.Test_Task_create">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="endbrowser"/>
+          <include name="createtask"/>
+        </methods>
+      </class> <!-- testcase_success.Test_Task_create -->
+    </classes>
+  </test> <!-- Create Task test case(failed) -->
+</suite> <!-- Failed suite [Success Application Suite] -->
