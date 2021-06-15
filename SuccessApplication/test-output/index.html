@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Success_Application_Suite">
-              <span class="suite-name border-skipped">Success Application Suite</span>
+              <span class="suite-name border-passed">Success Application Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Success_Application_Suite">
-                    <span>C:\Users\Maddy\eclipse-workspace\SuccessApplication\src\SuccessTestNG.xml</span>
+                    <span>C:\Users\Maddy\git\Successapp\SuccessApplication\SuccesssTestNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Success_Application_Suite" class="hide-methods skipped suite-Success_Application_Suite"> (hide)</a> <!-- hide-methods skipped suite-Success_Application_Suite -->
-                      <a href="#" panel-name="suite-Success_Application_Suite" class="show-methods skipped suite-Success_Application_Suite"> (show)</a> <!-- show-methods skipped suite-Success_Application_Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Success_Application_Suite" class="hide-methods passed suite-Success_Application_Suite"> (hide)</a> <!-- hide-methods passed suite-Success_Application_Suite -->
+                      <a href="#" panel-name="suite-Success_Application_Suite" class="show-methods passed suite-Success_Application_Suite"> (show)</a> <!-- show-methods passed suite-Success_Application_Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Success_Application_Suite">
+                    <div class="method-list-content passed suite-Success_Application_Suite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Success_Application_Suite" title="testcase_success.Test_Task_create" hash-for-method="createtask">createtask</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Success_Application_Suite -->
+                    </div> <!-- method-list-content passed suite-Success_Application_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Success_Application_Suite" class="panel Success_Application_Suite">
-          <div class="suite-Success_Application_Suite-class-skipped">
+          <div class="suite-Success_Application_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">testcase_success.Test_Task_create</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,23 +128,14 @@
                   <a name="createtask">
                   </a> <!-- createtask -->
                   <span class="method-name">createtask</span>
-                  <div class="stack-trace">java.io.FileNotFoundException: config.properties (The system cannot find the file specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
-	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
-	at commonfunction.CommonFunctions.loadpropertyFile(CommonFunctions.java:23)
-	at commonfunction.CommonFunctions.launchbrowser(CommonFunctions.java:32)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Success_Application_Suite-class-skipped -->
+          </div> <!-- suite-Success_Application_Suite-class-passed -->
         </div> <!-- panel Success_Application_Suite -->
         <div panel-name="test-xml-Success_Application_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Maddy\eclipse-workspace\SuccessApplication\src\SuccessTestNG.xml</span>
+            <span class="header-content">C:\Users\Maddy\git\Successapp\SuccessApplication\SuccesssTestNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -197,12 +188,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createtask')
 data.setCell(0, 2, 'testcase_success.Test_Task_create')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 15);
 window.suiteTableData['Success_Application_Suite']= { tableData: data, tableDiv: 'times-div-Success_Application_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 15 ms</span>
               <div id="times-div-Success_Application_Suite">
               </div> <!-- times-div-Success_Application_Suite -->
             </div> <!-- times-div -->
@@ -229,16 +220,18 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">testcase_success.Test_Task_create</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">createtask</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-suite before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">launchbrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">createtask</span>
+                <span class="method-start">37847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">endbrowser</span>
+                <span class="method-start">38333 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
